@@ -1,6 +1,6 @@
 ### 关注甬哥项目https://gitlab.com/rwkgyg/
 
-###https://dashboard.heroku.com/new?template=https://github.com/~~~~~~
+### https://dashboard.heroku.com/new?template=h 路径path：/自定义UUID-协议开头两小写字母
 
 ### 使用Github进行代码托管并连接heroku [gitlab项目通过https方式上传到github项目的流程图](https://ygkkk.blogspot.com/2022/06/gitlabhttpsgithub.html)
 
