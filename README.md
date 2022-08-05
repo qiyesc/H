@@ -1,6 +1,6 @@
 ### 关注甬哥项目https://gitlab.com/rwkgyg/
 
-### https://dashboard.heroku.com/new?template=h 路径path：/自定义UUID-协议开头两小写字母
+### https://dashboard.````.com/new?template=h 路径path：/自定义UUID-协议开头两小写字母
 
 ### 使用Github进行代码托管并连接heroku [gitlab项目通过https方式上传到github项目的流程图](https://ygkkk.blogspot.com/2022/06/gitlabhttpsgithub.html)
 
@@ -16,7 +16,7 @@
 addEventListener(
     "fetch",event => {
         let url=new URL(event.request.url);
-        url.hostname="appname.herokuapp.com";
+        url.hostname="appname.  .com";
         let request=new Request(url,event.request);
         event. respondWith(
             fetch(request)
@@ -30,8 +30,8 @@ addEventListener(
 <summary>CloudFlare Workers单双日轮换反代代码</summary>
 
 ```js
-const SingleDay = 'app0.herokuapp.com'
-const DoubleDay = 'app1.herokuapp.com'
+const SingleDay = 'app0.  .com'
+const DoubleDay = 'app1.  .com'
 addEventListener(
     "fetch",event => {
     
@@ -57,11 +57,11 @@ addEventListener(
 <summary>CloudFlare Workers每五天轮换一遍式反代代码</summary>
 
 ```js
-const Day0 = 'app0.herokuapp.com'
-const Day1 = 'app1.herokuapp.com'
-const Day2 = 'app2.herokuapp.com'
-const Day3 = 'app3.herokuapp.com'
-const Day4 = 'app4.herokuapp.com'
+const Day0 = 'app0.  .com'
+const Day1 = 'app1.  .com'
+const Day2 = 'app2.  .com'
+const Day3 = 'app3.  .com'
+const Day4 = 'app4.  .com'
 addEventListener(
     "fetch",event => {
     
@@ -96,13 +96,13 @@ addEventListener(
 <summary>CloudFlare Workers一周轮换反代代码</summary>
 
 ```js
-const Day0 = 'app0.herokuapp.com'
-const Day1 = 'app1.herokuapp.com'
-const Day2 = 'app2.herokuapp.com'
-const Day3 = 'app3.herokuapp.com'
-const Day4 = 'app4.herokuapp.com'
-const Day5 = 'app5.herokuapp.com'
-const Day6 = 'app6.herokuapp.com'
+const Day0 = 'app0.  .com'
+const Day1 = 'app1.  .com'
+const Day2 = 'app2.  .com'
+const Day3 = 'app3.  .com'
+const Day4 = 'app4.  .com'
+const Day5 = 'app5.  .com'
+const Day6 = 'app6.  .com'
 addEventListener(
     "fetch",event => {
     
@@ -139,7 +139,7 @@ addEventListener(
 
 ### 感谢以下项目所提供的参考
 
-https://github.com/mixool/xrayku  （已删库）
+ 
 
-https://github.com/Cptmacmillan2022007/IX-X2VW
+ 
 
